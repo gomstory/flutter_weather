@@ -11,7 +11,7 @@ class WeatherPage extends StatefulWidget {
 }
 
 class _WeatherPageState extends State<WeatherPage> {
-  final WeatherService weatherService = WeatherService("1b8b54fc207cf8f3d56826b98ff3c3d1");
+  final WeatherService weatherService = WeatherService("<YOUR_API_KEY>");
   Weather? _weather;
 
   getWeather() async {
